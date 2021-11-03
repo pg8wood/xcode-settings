@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string></string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// Add this to any XCTestCase subclass to easily run its tests multiple times.
+    // Great for tracking down flaky tests.
+    override func invokeTest() {
+        for time in 0...50 {
+            print("Invoked test \(time) times")
+            super.invokeTest()
+        }
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F591B1B1-6E04-4091-B109-BC26F9176E0F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Add this to any XCTestCase subclass to easily run its tests multiple times.  Great for tracking down flaky tests.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Repeat Test Case</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
